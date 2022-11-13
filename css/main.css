@@ -1,0 +1,289 @@
+.body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+/*Шапка */
+.header{
+    background:#f5f5f5;
+    margin-bottom: 140px;
+}
+
+.navbar{
+    padding-top: 30px;
+}
+.img-header{
+    margin-top: 80px;
+}
+.imgheaderlogo{
+    margin: -18% 0 0 0;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+.menu {
+    margin-top:8px;
+    list-style: none; /*убираем точки из маркированого списка ul*/
+    margin-top: 90px;
+}
+
+.menu__item {
+    margin: 0 20px; /*Отступ между пунктами меню*/
+}
+
+.menu__item a {
+    font-family: 'Open Sans';
+    font-size:16px;
+    font-weight:400;
+    color: #fc6f4e;
+    text-decoration: none; /*убираем нижнее подчеркивание из меню*/
+}
+
+a:hover {
+    color: #e9bf02; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: none; /* Добавляем подчеркивание */
+    transition-duration: .7s; /*Время при наведении на меню*/
+}
+
+.feuters{
+    background:#f5f5f5;
+}
+h1{
+    padding-top:145px;
+    font-family: 'Open Sans';
+    font-size:52px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.Smart{
+    color:#fc6f4e;
+}
+.Agensy{
+    color:#6b6b6b;
+}
+.text-Lorem{
+    padding-top: 40px;
+    font-family: 'Open Sans';
+    font-size:16px;
+    text-align: center;
+    color:#6b6b6b;
+}
+/*Форма обратной связи*/
+.titles{
+	width: 140px;
+	float: left;
+}
+
+#form_message{
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin:10px;
+	padding: 10px;
+	width: 320px;
+	height:330px;
+}
+
+#form_message input,textarea{
+	border-radius: 8px;
+	width: 300px;
+    margin-bottom: -10px;
+
+}
+
+#submit{
+	height: 30px;
+	float: center;
+    background:#fc6f4e;
+    border-radius: 8px;
+}
+.imgheaderlogo{
+    padding-left: 10px;
+}
+/*Вторая секция Working*/
+.Working{
+    margin-bottom: 130px;
+}
+
+.card{
+    
+    background: #4eb2f7;
+}
+
+.text-Lorem{
+    padding-bottom: 114px;
+}
+
+.card-img-top{
+    background: #4eb2f7;
+    width: 60px;
+    padding-left: 30px;
+    
+}
+
+.card-img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    padding-top: 50px;
+}
+
+.card-title{
+    padding-top: 20px;
+    text-align: center;
+    color: #eef7fe;
+}
+
+.card-texxt{
+    text-align: center;
+    color: #c1e4fc;
+}
+
+.btn-light{
+    width: 90%;
+    color: black;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 55px;  
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+}
+
+.fa-plus{
+    padding-right: 15px;
+
+}
+/*секция Featured*/
+.Featured{
+    background: #fbfbfb;
+}
+
+.img-featured{
+    padding-bottom: 24px;
+}
+
+/*Слайдер*/
+
+.pos-rev{
+    position: relative;
+}
+
+/*Секция Service*/
+.textblack1{
+    font-family: 'Open Sans';
+    white-space: normal;
+}
+
+.imgcloock{
+    width: 400px;
+}
+
+.fa-minus{
+    color: red;
+}
+
+.btn-light2{
+    width: 35%;
+    color: black;
+    border-radius: 50px;
+    margin-left: 0px;
+    margin-top: 0px;  
+    box-shadow: 0 14px 28px rgba(0,0,0,0.2), 0 10px 10px rgba(0,0,0,0.0);
+}
+/*Секция Team*/
+
+.Team-Chinen{
+    background:#fbfbfb;
+}
+
+/*Секция логотипов*/
+
+.logotip{
+    padding-top: 144px;
+    background: #fbfbfb;
+    padding-bottom: 100px;
+}
+/*Футер*/
+
+.footer{
+    background: #f7f7f7;
+}
+
+.btn-lightfoot{
+    position: relative;
+    width: 230px;
+    color: black;
+    border-radius: 50px;
+    margin-right: 0px;
+    margin-top: 55px;  
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.button-footer{
+    text-align: center;
+}
+
+.fab{
+    padding: 50px;
+    color:#000000;
+}
+
+.fab:hover {
+    text-decoration: none;
+    color:  #ff6e47;
+    transition: all 0.3s ease;
+  }
+
+.fas{
+    padding: 50px;
+    color:#000000;
+}
+
+.fas:hover{
+    text-decoration: none;
+    color:  #ff6e47;
+    transition: all 0.3s ease;
+}
+
+.text-icon{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    padding-right: 20px;
+    padding-top: 62px;
+    padding-left: 18px;
+}
+/*Карточки*/
+
+.carousel-inner{
+    padding-bottom: 50px;
+}
+
+.card{
+    background: white;
+}
+
+.card-body{
+    font-family: 'Open Sans';
+    background: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-text{
+    display:inline;
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 14px;
+}
+
+.fa-star{
+    color: rgba(255, 255, 0, 0.514);
+}
+
+.twow{
+    display:inline;
+}
